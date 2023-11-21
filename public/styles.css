@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.content {
+    border: 2px solid grey;
+    /* This creates a solid black border of 2 pixels */
+    border-radius: 5px;
+    padding: 20px;
+    /* Add padding inside the border */
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg,
+            rgba(34, 193, 195, 1) 0%,
+            rgba(253, 187, 45, 1) 100%);
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: hotpink;
+    border: 2px solid grey;
+}
+
+input {
+    width: 80px;
+}
+
+input,
+label {
+    margin: 10px 5px;
+}
+
+#result {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+}
